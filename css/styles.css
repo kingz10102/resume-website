@@ -3,7 +3,7 @@
 Fonts
 ===============
 */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+@import "https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400, 700&display=swap";
 
 /*
 =============== 
@@ -794,8 +794,6 @@ Blog
 	width: 100%;
 	height: 100%;
 	border-radius: var(--radius);
-	-webkit-transform: translate3d(0, 0, 0);
-	visibility: visible;
 }
 .card-front {
 	background: var(--clr-white);
